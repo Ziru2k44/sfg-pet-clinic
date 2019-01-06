@@ -30,9 +30,9 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
+                <artifactId>maven-release-plugin</artifactId>
                 <configuration>
-                    <goal>install</goal>
+                    <goals>install</goals>
                 </configuration>
             </plugin>
         </plugins>
